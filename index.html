@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfolio fotográfico de Albert Rodriguez. Fotografía, creatividad y momentos únicos.">
+
+    <title>Albert Rodriguez | Photographer</title>
+
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <header class="header">
+        <a href="#home" class="logo">AR<span>.</span></a>
+
+        <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menú" aria-expanded="false">
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav" id="nav">
+            <a href="#home">Inicio</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#about">Sobre mí</a>
+            <a href="#contact">Contacto</a>
+        </nav>
+    </header>
+
+
+    <!-- PORTADA -->
+    <main>
+
+        <section class="hero" id="home">
+
+            <div class="hero-image"></div>
+
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <p class="eyebrow">PHOTOGRAPHER & VISUAL ARTIST</p>
+
+                <h1>Albert<br>
+                    <span>Rodriguez.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Capturando momentos, emociones y perspectivas
+                    a través de mi cámara.
+                </p>
+
+                <a href="#portfolio" class="main-button">
+                    DESCUBRIR PORTFOLIO
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <div class="hero-bottom">
+                <span>PHOTOGRAPHY PORTFOLIO</span>
+                <span>SCROLL TO EXPLORE ↓</span>
+            </div>
+
+        </section>
+
+
+        <!-- INTRODUCCIÓN -->
+        <section class="intro section-padding">
+
+            <div class="section-label">
+                <span>01 / INTRODUCCIÓN</span>
+            </div>
+
+            <div class="intro-content">
+                <h2>
+                    La fotografía es mi manera
+                    de <span>ver el mundo.</span>
+                </h2>
+
+                <p>
+                    Soy Albert Rodriguez, fotógrafo apasionado por
+                    capturar historias, momentos y emociones.
+                    Busco encontrar la belleza en cada detalle y
+                    transmitir sensaciones a través de cada imagen.
+                </p>
+            </div>
+
+        </section>
+
+
+        <!-- PORTFOLIO -->
+        <section class="portfolio section-padding" id="portfolio">
+
+            <div class="section-label">
+                <span>02 / MI TRABAJO</span>
+                <span>SELECTED PHOTOGRAPHS</span>
+            </div>
+
+            <div class="portfolio-heading">
+                <h2>Selected <span>Works.</span></h2>
+                <p>Una selección de mis fotografías favoritas.</p>
+            </div>
+
+            <!-- FILTROS -->
+            <div class="filters">
+                <button class="filter-btn active" data-filter="all">
+                    Todo
+                </button>
+
+                <button class="filter-btn" data-filter="portrait">
+                    Retrato
+                </button>
+
+                <button class="filter-btn" data-filter="landscape">
+                    Paisaje
+                </button>
+
+                <button class="filter-btn" data-filter="street">
+                    Street
+                </button>
+
+                <button class="filter-btn" data-filter="events">
+                    Eventos
+                </button>
+            </div>
+
+
+            <!-- GALERÍA -->
+            <div class="gallery">
+
+                <div class="gallery-item"
+                     data-category="portrait"
+                     data-image="images/foto-01.jpg">
+
+                    <img src="images/foto-01.jpg"
+                         alt="Fotografía de retrato"
+                         loading="lazy">
+
+                    <div class="gallery-info">
+                        <span>01 / PORTRAIT</span>
+                        <h3>Portrait Study</h3>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item"
+                     data-category="landscape"
+                     data-image="images/foto-02.jpg">
+
+                    <img src="images/foto-02.jpg"
+                         alt="Fotografía de paisaje"
+                         loading="lazy">
+
+                    <div class="gallery-info">
+                        <span>02 / LANDSCAPE</span>
+                        <h3>Nature & Light</h3>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item"
+                     data-category="street"
+                     data-image="images/foto-03.jpg">
+
+                    <img src="images/foto-03.jpg"
+                         alt="Fotografía urbana"
+                         loading="lazy">
+
+                    <div class="gallery-info">
+                        <span>03 / STREET</span>
+                        <h3>Urban Stories</h3>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item"
+                     data-category="events"
+                     data-image="images/foto-04.jpg">
+
+                    <img src="images/foto-04.jpg"
+                         alt="Fotografía de eventos"
+                         loading="lazy">
+
+                    <div class="gallery-info">
+                        <span>04 / EVENTS</span>
+                        <h3>Special Moments</h3>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item"
+                     data-category="portrait"
+                     data-image="images/foto-05.jpg">
+
+                    <img src="images/foto-05.jpg"
+                         alt="Fotografía artística"
+                         loading="lazy">
+
+                    <div class="gallery-info">
+                        <span>05 / PORTRAIT</span>
+                        <h3>Human Emotion</h3>
+                    </div>
+                </div>
+
+
+                <div class="gallery-item"
+                     data-category="landscape"
+                     data-image="images/foto-06.jpg">
+
+                    <img src="images/foto-06.jpg"
+                         alt="Fotografía de naturaleza"
+                         loading="lazy">
+
+                    <div class="gallery-info">
+                        <span>06 / LANDSCAPE</span>
+                        <h3>Beyond The Horizon</h3>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SOBRE MÍ -->
+        <section class="about section-padding" id="about">
+
+            <div class="section-label">
+                <span>03 / SOBRE MÍ</span>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-image">
+                    <img src="images/about.jpg"
+                         alt="Albert Rodriguez fotógrafo"
+                         loading="lazy">
+                </div>
+
+                <div class="about-content">
+
+                    <p class="eyebrow">THE PERSON BEHIND THE CAMERA</p>
+
+                    <h2>Hola, soy<br>
+                        <span>Albert.</span>
+                    </h2>
+
+                    <p>
+                        La fotografía es mucho más que hacer una
+                        imagen. Es observar, conectar y encontrar
+                        momentos que merecen ser recordados.
+                    </p>
+
+                    <p>
+                        Me gusta experimentar con la luz,
+                        las composiciones y las perspectivas
+                        para crear fotografías con personalidad.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        HABLEMOS DE TU PROYECTO ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACTO -->
+        <section class="contact section-padding" id="contact">
+
+            <div class="section-label">
+                <span>04 / CONTACTO</span>
+            </div>
+
+            <div class="contact-content">
+
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+
+                <h2>Let's create<br>
+                    <span>something.</span>
+                </h2>
+
+                <p>
+                    ¿Tienes una idea, un proyecto o quieres
+                    trabajar conmigo? Estaré encantado de escucharte.
+                </p>
+
+                <a href="mailto:tuemail@ejemplo.com"
+                   class="main-button">
+                    CONTACTAR
+                    <span>↗</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="#home" class="logo">AR<span>.</span></a>
+
+        <p>© 2026 Albert Rodriguez Photography</p>
+
+        <div class="social-links">
+            <a href="https://www.instagram.com/"
+               target="_blank"
+               rel="noopener noreferrer">INSTAGRAM ↗</a>
+        </div>
+
+    </footer>
+
+
+    <!-- VISUALIZADOR DE FOTOGRAFÍAS -->
+    <div class="lightbox" id="lightbox"
+         role="dialog" aria-modal="true"
+         aria-label="Visualizador de fotografía"
+         aria-hidden="true">
+
+        <button class="lightbox-close"
+                id="lightbox-close"
+                aria-label="Cerrar fotografía">×</button>
+
+        <img id="lightbox-image" src="" alt="Fotografía ampliada">
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
