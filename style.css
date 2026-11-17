@@ -1,6 +1,7 @@
 
 /* =================================
-   ALBERT RODRIGUEZ PHOTOGRAPHY
+   OBSESSION
+   PHOTOGRAPHY & VISUAL STORIES
    ESTILOS GENERALES
 ================================= */
 
@@ -57,9 +58,9 @@ button {
 }
 
 .logo {
-    font-size: 27px;
-    font-weight: 700;
-    letter-spacing: -2px;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 
 .logo span {
@@ -128,7 +129,7 @@ button {
 .hero-content {
     position: relative;
     z-index: 2;
-    max-width: 700px;
+    max-width: 900px;
     animation: appear 1.2s ease;
 }
 
@@ -145,7 +146,7 @@ button {
     font-size: clamp(65px, 9vw, 120px);
     font-weight: 400;
     line-height: 0.95;
-    letter-spacing: -4px;
+    letter-spacing: 2px;
 }
 
 .hero h1 span {
@@ -549,6 +550,11 @@ button {
         padding: 0 6%;
     }
 
+    .logo {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+
     .menu-toggle {
         display: flex;
         flex-direction: column;
@@ -594,8 +600,8 @@ button {
     }
 
     .hero h1 {
-        font-size: 68px;
-        letter-spacing: -3px;
+        font-size: clamp(42px, 11vw, 68px);
+        letter-spacing: 1px;
     }
 
     .hero-bottom {
